@@ -57,3 +57,5 @@ test("splitting into words should be correct", () => {
 
 
 })
+
+export default 1

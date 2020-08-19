@@ -17,3 +17,4 @@ export function splitIntoWords(sentense: string) {
             .replace(",", ""))
 
 }
+

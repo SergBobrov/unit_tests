@@ -19,3 +19,5 @@ export type CityType = {
     governmentBuildings: Array<string>
     citizenNumber: number
 };
+
+export default 1

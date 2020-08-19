@@ -46,7 +46,7 @@ test("test city should contains 3 houses", () => {
     expect(city.houses[2].address.street.title).toBe("Happy street");
 });
 
-
+export default 1
 
 
 

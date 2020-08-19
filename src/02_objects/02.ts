@@ -10,7 +10,7 @@ type TechType = {
     id: number
     title: string
 }
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -19,7 +19,7 @@ type StudentType = {
     technologies: Array<TechType>
 }
 
-const student: StudentType = {
+export const student: StudentType = {
     id: 1,
     name: "Dimych",
     age: 32,
@@ -53,3 +53,5 @@ console.log(student.name);
 console.log(student.address.city.title);
 
 console.log(student.technologies[2].title);
+
+export default 1
