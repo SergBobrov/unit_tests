@@ -1,10 +1,10 @@
-type CityType = {
+type LocalCityType = {
     title: string;
     countryTitle: string;
 }
 type addressType = {
     streetTitle: string;
-    city: CityType;
+    city: LocalCityType;
 }
 type TechType = {
     id: number
